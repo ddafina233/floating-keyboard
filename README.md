@@ -35,7 +35,7 @@ app/src/main/
 ## 构建
 
 ```powershell
-cd D:\code\floatkb
+cd D:\github\floating-keyboard
 .\gradlew.bat :app:assembleDebug     # 调试包（debug 签名）
 .\gradlew.bat :app:assembleRelease   # 正式包（自己的 keystore 签名 + R8 混淆）
 ```
@@ -262,3 +262,4 @@ outInsets.touchableRegion.set(posX, posY, posX + panelWidth, posY + panelHeight)
 ⚠️ 注意：`app/src/main/assets/pinyin.txt`（拼音词库）是
 [rime-ice](https://github.com/iDvel/rime-ice) 等第三方词库的衍生数据，同样受 GPL-3.0 约束。
 商用或上架前的注意事项见 [NOTICE.md](NOTICE.md)。
+

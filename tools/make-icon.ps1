@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Drawing
 #  - mipmap-xxxhdpi/ic_launcher_fg.png  自适应图标前景(API 26+)
 #  - 预览图用于查看效果
 
-$res = "D:\code\floatkb\app\src\main\res"
+$res = "D:\github\floating-keyboard\app\src\main\res"
 
 function New-RoundedPath([System.Drawing.RectangleF]$r, [float]$radius) {
     $p = New-Object System.Drawing.Drawing2D.GraphicsPath
@@ -139,5 +139,6 @@ $smallBig.Dispose(); $small.Dispose()
 
 "icons generated"
 Get-ChildItem $res -Recurse -Filter "ic_launcher*.png" | ForEach-Object { "  " + $_.FullName.Replace("$res\", "") }
+
 
 

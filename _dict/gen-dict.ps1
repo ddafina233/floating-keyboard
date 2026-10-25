@@ -3,9 +3,9 @@
 #   全拼key \t 简拼abbr \t 词 \t 权重
 # 其中 key 为无声调拼音（音节直接相连），abbr 为各音节首字母（如 ni hao -> nh）
 param(
-    [string]$CharDict = "D:\code\floatkb\_dict\8105.yaml",
-    [string]$WordDict = "D:\code\floatkb\_dict\base.yaml",
-    [string]$OutFile  = "D:\code\floatkb\app\src\main\assets\pinyin.txt",
+    [string]$CharDict = "D:\github\floating-keyboard\_dict\8105.yaml",
+    [string]$WordDict = "D:\github\floating-keyboard\_dict\base.yaml",
+    [string]$OutFile  = "D:\github\floating-keyboard\app\src\main\assets\pinyin.txt",
     [int]$MaxWords    = 100000
 )
 
@@ -95,3 +95,4 @@ $sw.Dispose()
 
 "输出行数：$total"
 "文件大小：{0:N0} KB" -f ((Get-Item $OutFile).Length/1KB)
+
