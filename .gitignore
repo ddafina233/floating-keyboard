@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+.kotlin/
+build/
+captures/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# 本机配置
+local.properties
+
+# 签名材料（绝不入库 —— 泄露等于任何人都能伪造你的更新包）
+keystore.properties
+keystore/
+*.jks
+*.keystore
