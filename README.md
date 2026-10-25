@@ -254,3 +254,11 @@ outInsets.touchableRegion.set(posX, posY, posX + panelWidth, posY + panelHeight)
 
 
 
+
+## 许可
+
+本项目以 **GPL-3.0** 发布，详见 [LICENSE](LICENSE)。
+
+⚠️ 注意：`app/src/main/assets/pinyin.txt`（拼音词库）是
+[rime-ice](https://github.com/iDvel/rime-ice) 等第三方词库的衍生数据，同样受 GPL-3.0 约束。
+商用或上架前的注意事项见 [NOTICE.md](NOTICE.md)。
